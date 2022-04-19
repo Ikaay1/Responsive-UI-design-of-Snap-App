@@ -23,7 +23,7 @@ const Navbar = () => {
     }
     const handleClickClose = () => {
         const menu = document.querySelector('.dropdown')
-        menu.style.right = "-50%";
+        menu.style.right = "-57%";
     }
 
     return (
