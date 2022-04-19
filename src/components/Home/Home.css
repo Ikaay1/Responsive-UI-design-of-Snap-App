@@ -1,0 +1,109 @@
+.homeflex {
+    display: flex;
+    padding: 3rem 8rem;
+    justify-content: space-between;
+}
+
+.h1 {
+    font-size: 4rem;
+    color: hsl(0, 0%, 8%);
+    margin-bottom: 3rem;
+}
+
+.pdiv {
+    /* border: 1px solid; */
+    width: 39%;
+    margin-top: 5.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    /* border: 1px solid; */
+    width: 50%;
+    /* height: 100vh; */
+}
+
+.mimg {
+    display: none;
+}
+
+.img img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.getdiv {
+    line-height: 1.37rem;
+    margin-bottom: 3rem;
+}
+
+.learndiv {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 91%);
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    text-align: center;
+    border-radius: 9px;
+    width: 30%;
+    cursor: pointer;
+    transition: .2s ease-out;
+    margin-bottom: auto;
+}
+
+.learndiv:hover {
+    border: 1px solid hsl(0, 0%, 41%);
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+}
+
+.logodiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1026px) {
+
+    .homeflex {
+        flex-direction: column;
+        padding: 0;
+        justify-content: start;
+    }
+    .img {
+        display: none;
+    }
+
+    .mimg {
+        display: block;
+        width: 100%;
+    }
+
+    .mimg img {
+        width: 100%;
+    }
+
+    .pdiv {
+        width: 100%;
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .h1 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .learndiv {
+        margin: 0 auto;
+        margin-bottom: 2.5rem;
+        
+    }
+
+    .getdiv {
+        margin-bottom: 1.5rem;
+    }
+
+    .logodiv {
+        margin-bottom: 6rem;
+    }
+}
