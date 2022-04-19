@@ -82,7 +82,7 @@
 
     .dropdown {
         position: fixed;
-        right: -57%;
+        right: -65%;
         top: 0;
         height: 100%;
         margin-right: 0;
@@ -90,7 +90,7 @@
         background-color: hsl(0, 0%, 100%);
         padding-top: 5rem;
         font-size: .9rem;
-        width: 52%;
+        width: 60%;
         padding-left: 2rem;
         transition: .2s ease-out;
     }

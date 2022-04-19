@@ -19,11 +19,15 @@ const Navbar = () => {
 
     const handleClickOpen = () => {
         const menu = document.querySelector('.dropdown')
+        const body = document.querySelector('body')
+        body.style.backgroundColor = "hsl(0, 0%, 65%)"
         menu.style.right = "0";
     }
     const handleClickClose = () => {
         const menu = document.querySelector('.dropdown')
-        menu.style.right = "-57%";
+        const body = document.querySelector('body')
+        body.style.backgroundColor = "hsl(0, 0%, 98%)"
+        menu.style.right = "-65%";
     }
 
     return (
