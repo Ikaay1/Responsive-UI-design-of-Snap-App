@@ -93,6 +93,7 @@
         width: 60%;
         padding-left: 2rem;
         transition: .2s ease-out;
+        z-index: 3;
     }
 
     .flexnav {
@@ -131,5 +132,14 @@
         right: 3%;
         top: 2%;
         cursor: pointer;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, .6);
     }
 }

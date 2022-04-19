@@ -19,14 +19,14 @@ const Navbar = () => {
 
     const handleClickOpen = () => {
         const menu = document.querySelector('.dropdown')
-        const body = document.querySelector('body')
-        body.style.backgroundColor = "hsl(0, 0%, 65%)"
+        const modal = document.querySelector('.modal')
+        modal.style.display = "block"
         menu.style.right = "0";
     }
     const handleClickClose = () => {
         const menu = document.querySelector('.dropdown')
-        const body = document.querySelector('body')
-        body.style.backgroundColor = "hsl(0, 0%, 98%)"
+        const modal = document.querySelector('.modal')
+        modal.style.display = "none"
         menu.style.right = "-65%";
     }
 
@@ -82,6 +82,7 @@ const Navbar = () => {
             <div className='login'>Login</div>
             <div className='register'>Register</div>
             <img src={menu} alt="menu bar icon" className='menu' onClick={handleClickOpen} />
+            <div class="modal"></div>
         </div>
     )
 }
